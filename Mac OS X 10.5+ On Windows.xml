@@ -206,7 +206,9 @@
   <action id="EditorDeleteToWordEnd">
     <keyboard-shortcut first-keystroke="alt delete" />
   </action>
-  <action id="EditorDeleteToWordStart" />
+  <action id="EditorDeleteToWordStart">
+    <keyboard-shortcut first-keystroke="ctrl alt back_space" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
@@ -247,16 +249,16 @@
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
   <action id="EditorNextWord">
-    <keyboard-shortcut first-keystroke="alt right" />
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
   <action id="EditorNextWordWithSelection">
-    <keyboard-shortcut first-keystroke="shift alt right" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt right" />
   </action>
   <action id="EditorPreviousWord">
-    <keyboard-shortcut first-keystroke="alt left" />
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="EditorPreviousWordWithSelection">
-    <keyboard-shortcut first-keystroke="shift alt left" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt left" />
   </action>
   <action id="EditorRight">
     <keyboard-shortcut first-keystroke="right" />
@@ -441,6 +443,8 @@
   <action id="MinimizeCurrentWindow">
     <keyboard-shortcut first-keystroke="alt m" />
   </action>
+  <action id="MoveElementLeft" />
+  <action id="MoveElementRight" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="alt n" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
@@ -533,6 +537,10 @@
   <action id="RunGc" />
   <action id="SafeDelete">
     <keyboard-shortcut first-keystroke="alt delete" />
+  </action>
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+    <keyboard-shortcut first-keystroke="alt s" />
   </action>
   <action id="SelectAllOccurrences">
     <keyboard-shortcut first-keystroke="ctrl alt g" />
