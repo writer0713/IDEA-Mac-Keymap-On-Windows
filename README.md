@@ -1,4 +1,5 @@
 Windows의 IntelliJ keymap을 최대한 macOS keymap과 비슷하도록 수정 
+(원본에서 개인에 맞게 몇가지 keymap 수정)
 
 # 사용법
 ## IDEA의 Keymap설정 폴더 찾기
